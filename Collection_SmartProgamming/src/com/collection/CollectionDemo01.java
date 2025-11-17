@@ -26,13 +26,19 @@ public class CollectionDemo01 {
 		queue.add("Task3");
 
 		System.out.println(queue);
-		
-		//Map example(Key value)
-		Map<Integer,String> rollMap= new HashMap<>();
-		
+
+		// Map example(Key value)
+		Map<Integer, String> rollMap = new HashMap<>();
+
 		rollMap.put(1, "Aniket");
 		rollMap.put(2, "Sagar");
-		
+
+		System.out.println(rollMap);
+
+		// Using Collection utility
+		Collections.sort(names);
+
+		System.out.println("Sorted List : " + names);
 
 	}
 }
